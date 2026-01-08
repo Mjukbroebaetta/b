@@ -1,0 +1,50 @@
+.header {
+    background-color: #f0ffff;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.menu {
+    background-color: #d0dddd;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+#menyliste {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+}
+li {
+    transition: transform 0.3s ease;
+}
+li:hover {
+    transform: rotate(36deg)
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem;
+}
+
+a:hover {
+    background-color: #a0aaaa;
+}
+
+.body {
+    justify-content: center;
+    display: flex;
+
+}
+
+.bildeBody {
+    max-width: 10rem;
+    height:auto
+}
